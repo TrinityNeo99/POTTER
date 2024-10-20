@@ -10,8 +10,6 @@ from pycocotools.coco import COCO
 from hybrik.utils.bbox import bbox_clip_xyxy, bbox_xywh_to_xyxy
 from hybrik.utils.pose_utils import pixel2cam, reconstruction_error
 from hybrik.utils.presets import SimpleTransform3DSMPL, SimpleTransform3DSMPLCam
-
-
 class PW3D(data.Dataset):
     """ 3DPW dataset.
 
